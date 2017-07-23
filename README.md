@@ -1,0 +1,1 @@
+Smart mirror interpeded as an react app
