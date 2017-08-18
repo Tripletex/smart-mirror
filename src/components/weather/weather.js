@@ -7,7 +7,15 @@ class Weather extends Component {
   
   render() {
     return (
-		<div></div>
+		<div className="forcats">
+			<div className="weather">
+				&#9728;
+			</div>
+			<div className="temp">
+				18 &#8451;
+			</div>
+
+		</div>
     );
   }
 }
