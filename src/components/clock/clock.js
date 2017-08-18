@@ -8,7 +8,7 @@ class Clock extends Component {
 	constructor(props) {
 		super(props);
 		this.monthNames = ["januar", "februar", "mars", "april", "may", "juni",
-			"juli", "agust", "september", "oktober", "november", "mars"
+			"juli", "august", "september", "oktober", "november", "mars"
 		];
 		var date = new Date();
 
@@ -24,7 +24,7 @@ class Clock extends Component {
 		const addZero = n => n < 10 ? "0" +  n : n;
 
 		setInterval(() => {
-			let date, t, minutes, hours, s;
+			let date, t, minutes, hours;
 			date = new Date();
 			
 			minutes = addZero(date.getMinutes());
