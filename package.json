@@ -14,5 +14,11 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "proxy": {
+
+    "/v2": {
+      "target": "http://localhost:8080"
+    }
   }
 }
