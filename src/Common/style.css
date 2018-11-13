@@ -2,3 +2,9 @@ body {
 	background-color: black;
 	color: azure 
 }
+
+.logo {
+	position: absolute;
+	top: 0;
+	left: 6px;
+}

@@ -8,6 +8,7 @@ import EnTur from './Components/EnTur/EnTur'
 const Index = () => {
   return (
 	  <div>
+		  <img className="logo" src="../logo.png" />
 		<EnTur />
 		<Clock />
 	  </div>
