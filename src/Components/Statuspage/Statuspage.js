@@ -33,7 +33,11 @@ class Statuspage extends Component {
     }
 
     render() {
-        return (<div>Tripletex er : {this.state.status}</div>);
+		const ok = this.state.status === "operational";
+
+		const className = `${ok ? 'statusOk' : ''} tlxStatus`;
+
+        return (<div className={className}>Tripletex er : {this.state.status}</div>);
     }
 }
 export default Statuspage;

@@ -1,0 +1,12 @@
+.tlxStatus {
+	position: absolute;
+	top: 50%;
+	left: calc(50% - 125px);
+	font-size: 36px;
+	z-index: 9;
+	color: #ff2b2b;
+}
+
+.statusOk {
+	color: #4ae23f;
+}
