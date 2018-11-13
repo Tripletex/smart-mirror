@@ -1,6 +1,7 @@
 body {
 	background-color: black;
-	color: azure 
+	color: azure;
+	cursor: none;
 }
 
 .logo {
