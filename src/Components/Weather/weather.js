@@ -10,12 +10,13 @@ export default class Weather extends React.Component {
 				<div className="weather-current">
 					<a class="weatherwidget-io" href="https://forecast7.com/en/59d9110d75/oslo/" data-icons="Iconvault"
 					   data-mode="Current" data-days="3" data-theme="dark" data-accent="#000000"
-					   data-textcolor="#ffffff"
+					   data-textcolor="#ffffff" data-suncolor="#ff8022"
 					   data-lowcolor="#ffffff" data-mooncolor="#ffffff" data-cloudfill="#000000">Oslo, Norway</a>
 				</div>
 				<div className="weather-forecast">
 					<a class="weatherwidget-io" href="https://forecast7.com/en/59d9110d75/oslo/" data-mode="Forecast"
 					   data-days="3" data-theme="dark" data-accent="#000000" data-textcolor="#ffffff"
+					   data-suncolor="#ff8022"
 					   data-lowcolor="#ffffff" data-mooncolor="#ffffff" data-cloudfill="#000000">Oslo, Norway</a>
 				</div>
 			</div>
