@@ -1,7 +1,10 @@
+* {
+	cursor: none;
+}
+
 body {
 	background-color: black;
 	color: azure;
-	cursor: none;
 }
 
 .logo {
