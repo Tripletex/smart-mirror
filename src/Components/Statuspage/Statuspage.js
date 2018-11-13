@@ -14,10 +14,9 @@ class Statuspage extends Component {
         this.state = {
             status: "",
         }
-    }
-
-    componentDidMount() {
-
+	}
+	
+	updateStatus() {
         let headers = {
             accept: 'application/json; charset=utf-8'
         };
@@ -30,12 +29,20 @@ class Statuspage extends Component {
                 status: tmp[0].status
             })
         });
+	}
+
+    componentDidMount() {
+		this.updateStatus();
+		setInterval(() => {
+			this.updateStatus();
+		}, 60000)
+
     }
 
     render() {
 		const ok = this.state.status === "operational";
 
-		const className = `${ok ? 'statusOk' : ''} tlxStatus`;
+		const className = `${ok == true ? 'statusOk' : ''} tlxStatus`;
 
         return (<div className={className}>Tripletex er : {this.state.status}</div>);
     }
