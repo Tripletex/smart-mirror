@@ -5,6 +5,7 @@ import './Common/style.css'
 import Clock from './Components/Clock/clock'
 import EnTur from './Components/EnTur/EnTur'
 import Weather from "./Components/Weather/weather";
+import Statuspage from './Components/Statuspage/Statuspage'
 
 const Index = () => {
   return (
@@ -12,6 +13,7 @@ const Index = () => {
 		<EnTur />
 		<Clock />
 		 <Weather/>
+		  <Statuspage/>
 	  </div>
   )
 };
