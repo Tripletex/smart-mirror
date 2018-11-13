@@ -1,0 +1,20 @@
+.weather {
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 0;
+}
+.weather-current {
+	width: 300px;
+	transform: scale(2.3);
+	transform-origin: top left;
+}
+
+.weather-forecast {
+	position: fixed;
+	top: 200px;
+	width: 500px;
+	transform: scale(1.5);
+	transform-origin: top left;
+}
+
