@@ -8,7 +8,7 @@ Smart Mirror is licensed the MIT License
 ## Installation
 run 
 ```
-git clone git@github.com:HarNys/smart-mirror.git
+git clone https://github.com/HarNys/smart-mirror.git
 ```
 ```
 cd smart-mirror
