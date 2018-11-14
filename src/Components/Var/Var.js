@@ -1,16 +1,10 @@
 import React, { Component } from 'react';
-
-
 import './Var.css'
-
-
 
 class Var extends Component {
 	constructor() {
 		super();
 	}
-
-
 
 	render() {
 		return (
@@ -20,6 +14,5 @@ class Var extends Component {
 			);
 	}
 }
-
 
 export default Var;
