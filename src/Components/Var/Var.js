@@ -14,7 +14,7 @@ class Var extends Component {
 
 	render() {
 		return (
-		<div>
+		<div className="var">
 			<img src={"https://www.nrk.no/teletextresources/101.1-w500.gif"} />
 		</div>
 			);

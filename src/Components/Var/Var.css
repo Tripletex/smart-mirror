@@ -1,4 +1,6 @@
 .var {
-	position: center;
-	bottom: 3px;
+	position: absolute;
+	top: 30%;
+	left: 5px;
+	z-index: 10;
 }
