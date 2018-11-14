@@ -1,7 +1,7 @@
 # Smart Mirror
 This is a React inturpetation of the smart mirror consept
 
-Copyright (c) 2017-2018 Harry Nystad
+Copyright (c) 2017-2018 Harry Nystad   
 Copyright (c) 2018 Tripletex AS
 
 Smart Mirror is licensed the MIT License
