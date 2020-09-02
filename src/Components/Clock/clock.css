@@ -3,18 +3,17 @@
 	right: 60px;
 	top: 40px;
 	text-align: right;
-	font-family: Tahoma;
 	font-weight: 500;
 }
 .time {
 	margin:0 0 5px 0;
-	font-size: 80px;
+	font-size: 32px;
 }
 
 .day-and-month {
-    font-size: 80px;
+    font-size: 24px;
 }
 
 .year {
-	font-size: 30px;
+	font-size: 14px;
 }
