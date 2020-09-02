@@ -1,0 +1,32 @@
+/*temp
+carbon
+humidity
+*/
+
+
+.weather {
+	background-color: #191919;
+	width: 300px;
+	border-radius: 12px;
+	margin-left: 4px;
+	margin-top: 4px;
+	padding: 0 8px 8px 8px;
+
+}
+
+.weather-station {
+	/*background-color: #2da003;*/
+	margin-top: 8px;
+}
+.weather-station-title {
+	font-size: 28px;
+	text-align: center;
+}
+
+.weather-row {
+	display: flex;
+	gap: 8px;
+	/*background-color: #014dcf;*/
+	justify-content: space-between;
+	padding: 8px;
+}
